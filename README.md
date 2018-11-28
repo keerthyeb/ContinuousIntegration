@@ -1,4 +1,4 @@
-# ContinuousIntegration
+# Continuous Integration
 
 Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently.
 Each integration can then be verified by an automated build and automated tests.
