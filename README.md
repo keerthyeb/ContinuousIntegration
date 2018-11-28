@@ -11,4 +11,4 @@ Usage:
   It will clone the repository if it does not exist in the c  urrent directory.
   
 Syntax:
-  ./continuousIntegration.sh <git Repository URL> <Time Interval>
+  ./continuousIntegration.sh <git Repository URL> [Time Interval]
