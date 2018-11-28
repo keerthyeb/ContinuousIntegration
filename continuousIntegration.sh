@@ -7,12 +7,16 @@ if [ -d "$repoName" ]; then
   git clone "$repoURL"
 fi
 
+if [ -z "$timeInterval" ]; then
+  timeInterval=60
+fi
+
 cd "$repoName"
 
 while true ; do
   git pull;
   clear;
   tree ;
-  mocha --reporter landing;
+  mocha --reporter landing
   sleep "$timeInterval"
 done
